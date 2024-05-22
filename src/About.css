@@ -1,0 +1,23 @@
+.about-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .about-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-container p {
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .about-container p:last-child {
+    margin-bottom: 0;
+  }
+  
