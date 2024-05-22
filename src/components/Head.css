@@ -1,0 +1,57 @@
+/* General styles for the navigation */
+.horizontal-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    /* border: 3px solid rgb(141, 133, 133); */
+    border-radius: 10px;
+    background-color: #f0f0f0; 
+  }
+  
+  .horizontal-nav li {
+    margin: 0 10px;
+  }
+  
+  .horizontal-nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  .horizontal-nav li a:hover {
+    color: blue;
+  }
+  
+  /* Styles for the hamburger menu icon */
+  .menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .horizontal-nav {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .horizontal-nav.open {
+      display: flex;
+    }
+    
+    .horizontal-nav li {
+      margin: 10px 0;
+    }
+    
+    .menu-icon {
+      display: block;
+    }
+  }
+  
